@@ -254,7 +254,7 @@ def app():
         logo_col, header_col = st.columns([1, 6])
         
         with logo_col:
-            st.image(r"C:\Users\hanse\Desktop\kumo\logo.png", width=55)
+            st.image("logo.png", width=55)
         
         with header_col:
             st.subheader("Korea - Indonesia, Jakarta 수출 컨테이너 분석")
@@ -630,4 +630,5 @@ def app():
         show_data_overview(df)
 
 if __name__ == "__main__":
+
     app()
